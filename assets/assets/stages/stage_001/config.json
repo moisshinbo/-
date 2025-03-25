@@ -1,0 +1,138 @@
+{
+  "id": "001",
+  "title": "タイピング入門",
+  "difficulty": 1,
+  "description": "いよわと一緒にタイピングの基本を学びましょう！\n簡単な単語から始めて、徐々にレベルアップしていきます。",
+  "isUnlocked": true,
+  "clearScore": 0,
+  "maxScore": 100,
+  
+  "assets": {
+    "background": "background.png",
+    "bgm": "bgm.mp3",
+    "character": "character.png",
+    "expressions": {
+      "normal": "expressions/normal.png",
+      "happy": "expressions/happy.png",
+      "sad": "expressions/sad.png"
+    }
+  },
+  
+  "character": {
+    "name": "ルナ",
+    "description": "タイピングを教えてくれる優しいお姉さん"
+  },
+  
+  "scenario": [
+    {
+      "speaker": "ルナ",
+      "expression": "normal",
+      "text": "こんにちは！私はルナ。今日からタイピングを教えるわね。"
+    },
+    {
+      "speaker": "いよわ",
+      "expression": "happy",
+      "text": "よろしくお願いします！タイピングって難しいですか？"
+    },
+    {
+      "speaker": "ルナ",
+      "expression": "happy",
+      "text": "最初は慣れないかもしれないけど、コツを掴めばきっと上手くなるわよ！"
+    },
+    {
+      "speaker": "プレイヤー",
+      "text": "どうしたらタイピングが上達しますか？",
+      "choices": [
+        "毎日練習する",
+        "キーボードを見ないで打つ",
+        "速さよりも正確さを意識する"
+      ],
+      "responses": {
+        "毎日練習する": 4,
+        "キーボードを見ないで打つ": 5,
+        "速さよりも正確さを意識する": 6
+      }
+    },
+    {
+      "speaker": "ルナ",
+      "expression": "happy",
+      "text": "その通り！継続は力なりよ。毎日少しずつでも練習すると、自然と上達するわ。"
+    },
+    {
+      "speaker": "ルナ",
+      "expression": "normal",
+      "text": "そうね、タッチタイピングが大事。最初は難しいけど、キーボードを見ないで打てるようになると格段に速くなるわよ。"
+    },
+    {
+      "speaker": "ルナ",
+      "expression": "normal",
+      "text": "正確に打つことが一番大事！速さは後からついてくるから、まずは正確に打つことを心がけましょう。"
+    },
+    {
+      "speaker": "いよわ",
+      "expression": "normal",
+      "text": "なるほど、参考になります！早速練習してみます！"
+    },
+    {
+      "speaker": "ルナ",
+      "expression": "happy",
+      "text": "それじゃあ、基本的な単語から始めてみましょうか。準備はいい？"
+    },
+    {
+      "speaker": "プレイヤー",
+      "text": "準備はできていますか？",
+      "choices": [
+        "はい、始めましょう！",
+        "もう少し説明が欲しいです"
+      ],
+      "responses": {
+        "はい、始めましょう！": 10,
+        "もう少し説明が欲しいです": 11
+      }
+    },
+    {
+      "speaker": "ルナ",
+      "expression": "happy",
+      "text": "よし！では始めましょう！音量を確認して、準備ができたらスタートしてください。"
+    },
+    {
+      "speaker": "ルナ",
+      "expression": "normal",
+      "text": "もちろん！タイピングは指の位置が重要なの。「F」と「J」のキーには小さな突起があるから、そこに人差し指を置くのが基本姿勢よ。"
+    },
+    {
+      "speaker": "ルナ",
+      "expression": "normal",
+      "text": "それぞれの指が担当するキーがあるから、少しずつ覚えていきましょう。でも今日は簡単な単語からだから、リラックスして挑戦してみて！"
+    },
+    {
+      "speaker": "ルナ",
+      "expression": "happy",
+      "text": "では、準備はいい？音量を確認して、スタートしましょう！"
+    }
+  ],
+  
+  "typing_phrases": [
+    {
+      "text": "こんにちは",
+      "kana": "コンニチハ",
+      "romaji": "konnichiha",
+      "start_time": 0.0,
+      "duration": 5.0
+    },
+    {
+      "text": "タイピング",
+      "kana": "タイピング",
+      "romaji": "taipingu",
+      "start_time": 6.0,
+      "duration": 5.0
+    },
+    {
+      "text": "プログラミング",
+      "kana": "プログラミング",
+      "romaji": "puroguramingu",
+      "start_time": 12.0,
+      "duration": 7.0
+    }
+  ]
+} 
